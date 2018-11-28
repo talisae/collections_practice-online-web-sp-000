@@ -28,5 +28,5 @@ def find_a(array)
 end
 
 def sum_array(array)
-  new_array = array.sum
+  array = array.sum
 end
