@@ -6,6 +6,10 @@ def sort_array_desc(array)
   array.sort {|a, b| b <=> a}
 end
 
+def sort_array_char_count(array)
+  array.sort {|a, b| a.length <=> b.length}
+end
+
 def find_a(array)
   array.find_all {|word| word[0] == "a"}
 end
