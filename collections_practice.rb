@@ -21,6 +21,7 @@ end
 
 def kesha_maker(array)
   array.each {|element| element[2] = "$"}
+end
 
 def find_a(array)
   array.find_all {|word| word[0] == "a"}
